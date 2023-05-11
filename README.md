@@ -34,7 +34,7 @@ pip install Django Django-Channels daphne
 
 <strong>1. Clone the repository:</strong>
 ```
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/Veerendra-K/django-realtime-video-streaming.git
 
 ```
 
