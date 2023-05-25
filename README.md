@@ -63,7 +63,7 @@ daphne -p 8001 myproject.asgi:application
 ```
 
 <strong>6. Open the application in your web browser at http://localhost:8000.</strong><br/>
-<strong>7. Click on the "Start Streaming" button to start streaming your webcam video.</strong><br/>
+<!-- <strong>7. Click on the "Start Streaming" button to start streaming your webcam video.</strong><br/> -->
 <strong>8. When prompted by your browser, grant the application permission to access your webcam.</strong><br/>
 <strong>9. The application will now display your webcam video in the first video element on the page.</strong><br/>
 <strong>10. The application will automatically establish a WebSocket connection to the backend when the webcam stream starts.</strong><br/>
@@ -72,7 +72,7 @@ daphne -p 8001 myproject.asgi:application
 <strong>13. The backend will perform any desired processing on the video frames (optional).</strong><br/>
 <strong>14. The backend will send the processed video frames back to the frontend through the same WebSocket connection.</strong><br/>
 <strong>15. The frontend will update the second video element's source with the received frames in real time.</strong><br/>
-<strong>16. Click on the "Stop Streaming" button to close the WebSocket connection and stop the webcam stream.</strong><br/>
+<strong>16. <!-- Click on the "Stop Streaming" button to -->Close the WebSocket connection and stop the webcam stream.</strong><br/>
 
 ## Conclusion:
 <strong>Congratulations! You have successfully set up and run the real-time video streaming application using Django and Websockets. You can now customize the application as per your requirements.</strong>
